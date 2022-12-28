@@ -14,12 +14,14 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="Coin List Name"
+        android:clickable="true"
         android:textSize="22sp"
         android:textColor="@color/white"
         android:textStyle="bold"
         android:fontFamily="sans-serif-light"
        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/textView4"

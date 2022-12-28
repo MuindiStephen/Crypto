@@ -8,12 +8,12 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textViewCoinListName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="Coin List Name"
+        android:text="@string/coin_list_name"
         android:clickable="true"
         android:textSize="22sp"
         android:textColor="@color/white"
@@ -24,12 +24,12 @@
         android:focusable="true" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textViewCoinListStatus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:text="Status"
+        android:text="@string/status"
         android:fontFamily="monospace"
         android:textColor="@color/green"
         android:textStyle="italic"

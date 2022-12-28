@@ -7,4 +7,5 @@
     tools:context=".presentation.fragments.main.CoinListDetailsFragment">
 
 
+
 </androidx.constraintlayout.widget.ConstraintLayout>

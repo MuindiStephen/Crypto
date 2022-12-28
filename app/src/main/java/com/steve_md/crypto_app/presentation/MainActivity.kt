@@ -1,7 +1,8 @@
-package com.steve_md.crypto_app
+package com.steve_md.crypto_app.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.steve_md.crypto_app.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

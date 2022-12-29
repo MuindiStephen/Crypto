@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater) // [Not a must to pass]
+        binding = ActivityMainBinding.inflate(layoutInflater) // To associate the Logic MainActivity with XML layout file (activity_main)
         setContentView(binding.root)
 
         supportActionBar?.hide()

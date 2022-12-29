@@ -16,7 +16,7 @@ class CoinListAdapter : ListAdapter<CoinList, CoinListAdapter.CoinListViewHolder
 
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CoinListViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CoinListAdapter.CoinListViewHolder {
         TODO("Not yet implemented")
     }
 

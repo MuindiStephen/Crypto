@@ -28,7 +28,8 @@ private var _binding: FragmentSplashBinding? = null
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        Handler().postDelayed({
+        Handler().postDelayed(
+            {
             navigateToCoinListFragment()
         }, 2500)
     }

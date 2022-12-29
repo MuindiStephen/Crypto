@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.fragment.findNavController
 import com.steve_md.crypto_app.R
 import com.steve_md.crypto_app.databinding.ActivityMainBinding
 
@@ -21,5 +22,6 @@ class MainActivity : AppCompatActivity() {
 
         val navHostFragment = supportFragmentManager
             .findFragmentById(R.id.fragmentContainerView) as NavHostFragment
+        navController = navHostFragment.findNavController()
     }
 }

@@ -3,6 +3,8 @@ package com.steve_md.crypto_app.data.remote.dto
 
 import com.google.gson.annotations.SerializedName
 
+// Created from the API
+// To display the list of coins
 data class CoinDto(
     @SerializedName("id")
     val id: String,

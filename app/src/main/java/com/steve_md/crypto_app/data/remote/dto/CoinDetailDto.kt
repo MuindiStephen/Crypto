@@ -3,6 +3,8 @@ package com.steve_md.crypto_app.data.remote.dto
 
 import com.google.gson.annotations.SerializedName
 
+
+// Created from the API
 data class CoinDetailDto(
     @SerializedName("description")
     val description: String,

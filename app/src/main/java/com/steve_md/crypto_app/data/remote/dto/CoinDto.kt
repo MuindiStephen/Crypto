@@ -2,6 +2,7 @@ package com.steve_md.crypto_app.data.remote.dto
 
 
 import com.google.gson.annotations.SerializedName
+import com.steve_md.crypto_app.domain.model.Coin
 
 // Created from the API
 // To display the list of coins
@@ -21,3 +22,12 @@ data class CoinDto(
     @SerializedName("type")
     val type: String
 )
+fun CoinDto.toCoin() : Coin  {
+    return Coin(
+        id = id,
+        name = name,
+        isActive = isActive,
+        rank = rank,
+        symbol = symbol
+    )
+}

@@ -7,7 +7,7 @@ import retrofit2.http.Path
 
 interface CoinPaprikaApiService {
     @GET("/v1/coins")
-    suspend fun getCoins() : CoinDto
+    suspend fun getCoins() : List<CoinDto>
 
     @GET("/v1/coins/{coinId}")
     suspend fun getCoinById(

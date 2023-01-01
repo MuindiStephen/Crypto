@@ -11,6 +11,8 @@ import retrofit2.HttpException
 import java.io.IOException
 import javax.inject.Inject
 
+
+// Business Logic
 class GetCoinsUseCase @Inject constructor(
     private val coinRepository: CoinRepository
 ) {
